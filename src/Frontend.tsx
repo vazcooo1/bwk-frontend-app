@@ -152,6 +152,7 @@ const handlePasswordChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         <Button onClick={() => handleClick('ecommerce-3-price-update')}>Actualizar Precios ML</Button>
         <Button onClick={() => handleClick('ecommerce-3-stock-update')}>Actualizar Stock ML</Button>
         <Button onClick={() => handleClick('omincommerce-update')}>Actualizar TODO</Button>
+        <Button onClick={() => handleClick('updateGecom')}>Sincronizar GeCom + Google DB</Button>
         </ButtonGroup>
       <Flex width="80%" justifyContent="center">
         <Input
